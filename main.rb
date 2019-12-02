@@ -10,3 +10,8 @@ puts "Hello, " + name
 
 # Prints on seperate lines
 puts "one\ntwo\nthree"
+
+require_relative "modules.rb"
+include Tools
+
+Tools.sayhi(name)
